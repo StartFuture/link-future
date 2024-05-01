@@ -1,0 +1,14 @@
+.link {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  background: #2b292e;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.link:hover {
+  background: #502d96;
+}
