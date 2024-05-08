@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: #141313;
+  padding: 16px;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: flex-end;
+}
+
+@media (max-width: 500px) {
+  .buttons {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    width: 100%;
+  }
+}

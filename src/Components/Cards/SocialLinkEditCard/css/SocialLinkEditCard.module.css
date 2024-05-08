@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  gap: 16px;
+  align-self: stretch;
+  background: #141313;
+  padding: 16px 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background: #202020;
+  border-radius: 50%;
+}
+
+.edit_container {
+  display: flex;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.edit_container > input {
+  flex: 1 0 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .buttons {
+    align-self: flex-end;
+  }
+}
